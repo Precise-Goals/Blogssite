@@ -3,7 +3,7 @@ import a2 from "../assets/a2.webp";
 import a3 from "../assets/a3.webp";
 import a4 from "../assets/a4.webp"; 
 
-import b1 from "../assets/b1.png    ";
+import b1 from "../assets/b1.png";
 import b2 from "../assets/b2.webp";
 import b3 from "../assets/b3.webp";
 import b4 from "../assets/b4.webp"; 
