@@ -20,7 +20,7 @@ export const Bdata = () => {
       <div className="desc2"><p>{blog.desc2}</p></div>
       <div className="image"><img src={blog.image} alt="cover" loading='lazy' width={1280} height={720} /></div>
       <div className="desc3"><p>{blog.desc3}</p></div>
-      <div className="conc"><p>{blog.conc}</p></div>
+      <div className="conc"><p>{blog.conc}</p><br /><br /><p>Published at {blog.date}</p></div>
     </div>
   )
 };
