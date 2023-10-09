@@ -1,38 +1,253 @@
-.App {
+@import url(https://fonts.googleapis.com/css2?family=Gabarito:wght@400;600;700;800&family=Merriweather+Sans:wght@400;500;600&family=Open+Sans:ital,wght@0,600;1,600&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  -webkit-user-drag: none;
+  -moz-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+.Light {
+  --bgcolor: linear-gradient(45deg, #497ac9, #e4c6c6);
+  --textelm: #47034c;
+  --wrapper: white;
+  --color: white;
+  --bgs: #b8cee3;
+}
+.Dark {
+  --bgcolor: linear-gradient(120deg, #381957, #3d093d);
+  --textelm: #bfc0c7;
+  --wrapper: #9d1a6599;
+  --color: black;
+  --bgs: #08051e;
+}
+a,
+:any-link {
+  text-decoration: none;
+  color: var(--textelm);
+}
+section {
+  background: var(--bgcolor);
+  color: var(--textelm);
+}
+
+.nav {
+  display: flex;
+  column-gap: 39%;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 10rem;
+  padding-top: 3rem;
+}
+.read {
+  font-size: 105%;
+  font-weight: 700;
+  transition: all ease-in 0.27s;
+  font-family: "Gabarito", cursive;
+}
+.read:hover {
+  color: grey;
+}
+.logo {
+  font-size: 50px;
+  font-family: "Gabarito";
+  letter-spacing: 0.0298em;
+  font-weight: 600;
+}
+
+.Link ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.list {
+  padding: 0rem 10rem;
+}
+.link ul {
+  display: flex;
+  align-items: center;
+  column-gap: 6%;
+  flex-direction: row;
+  list-style: none;
+  font-size: 140%;
+  font-family: "Gabarito";
+  font-weight: 700;
+  letter-spacing: 0.029em;
+}
+.link ul a,
+.link ul li {
+  transition: 0.29s;
+}
+.link ul a:hover,
+.link ul li a:hover {
+  color: grey;
+}
+
+.link ul li {
+  width: 29%;
+}
+
+.blogs ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  align-items: center;
+}
+
+.blogs ul li {
+  margin: 1rem 7rem;
+}
+
+.Blogwrap {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: flex-start;
+  border-radius: 13px;
+  background: var(--bgs);
+}
+
+.ro1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  column-gap: 11%;
+}
+
+.img img {
+  border-radius: 36px;
+  filter: drop-shadow(0px 0px 8rem var(--wrapper));
+}
+
+.text {
+  display: flex;
+  row-gap: 0.56rem;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.text p {
+  font-family: "Open Sans";
+  font-weight: 200;
+  font-size: 90%;
+  margin: 0 2%;
+}
+
+.blogs {
+  margin: 3rem;
+}
+
+.text a h1 {
+  font-family: "Gabarito", cursive;
+  letter-spacing: 0.02em;
+}
+.socials ul li a {
+  color: white;
+  transition: all ease-in-out 0.3s;
+}
+.socials ul li a:hover {
+  color: #bfc0c7;
+}
+.switch {
+  display: flex;
+  flex-direction: row;
+  column-gap: 8%;
+  align-items: center;
+  background: var(--textelm);
+  justify-content: center;
+  color: var(--color);
+  border-radius: 20px;
+  padding: 0.26rem 1rem;
+  font-weight: 700;
+  font-family: "Gabarito";
+  font-size: 100%;
+  border: none;
+}
+.list {
+  padding: 0rem 10rem;
+}
+
+.footer {
+  background: black;
+  padding: 1rem 28rem;
+  display: flex;
+  flex-direction: column;
+  color: #d1cdcd;
+  align-items: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.footer h1 {
+  margin: 1%;
+  filter: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.footer p {
+  font-size: 120%;
+  font-weight: 600;
+  font-family: "Open Sans";
+  margin: 3% 0 2% 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ul {
+  list-style: none;
+}
+
+.links ul {
   display: flex;
   flex-direction: column;
+  font-size: 100%;
+  letter-spacing: 0.03em;
+  font-weight: 600;
+  font-family: "Merriweather Sans";
+  margin: 1em;
+  color: #d7cfcf;
+}
+.links ul li a {
+  color: #ff7aa9f6;
+  transition: all ease 0.287s;
+}
+.links ul li a:hover {
+  color: #bfc0c7;
+}
+
+.socials ul {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 125%;
 }
-
-.App-link {
-  color: #61dafb;
+.copyright {
+  color: grey;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.err h1 {
+  display: none;
+}
+@media (max-width: 1024px) and (min-width: 120px) {
+  section {
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .err h1 {
+    text-align: center;
+    display: block;
+    padding: 7%;
+    margin: 15rem 0;
   }
 }

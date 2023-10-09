@@ -1,24 +1,33 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
+import { Blogs } from './Components/blogs';
+import { Bdata } from './Components/bdata';
+import Nav from './Components/nav';
+import { Footer } from './Components/down';
 
 function App() {
+  const [sectionClassName, setSectionClassName] = useState("Obsidian"); // Initialize the section class name
+  const changeSectionClassName = (newClassName) => {
+    setSectionClassName(newClassName);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className='App'>
+        <section className={sectionClassName} >
+          <Nav changeSectionClassName={changeSectionClassName} />
+          <Routes>
+            <Route exact path="/" element={<Blogs />} />
+            <Route exact path="/blog/:id" element={<Bdata />} />
+          </Routes>
+          <Footer />
+        </section>
+        <div className='err'>
+          <h1>This App is only available for PC and Laptop  Users</h1>
+        </div>
+      </div>
+    </Router>
   );
 }
 
