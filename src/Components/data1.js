@@ -15,7 +15,7 @@ import c4 from "../assets/c4.webp";
 
 export const blogdeta = [
     {
-        id: 1,
+        id: "Ideal-Journey-to-Tech-World",
         title: "Ideal Journey To Tech World ",
         desc1: "ㅤㅤㅤMy journey into technology started when I became passionate about how computers could solve real-world problems. At the age of 15, I was introduced to video games and became curious about the hardware that powered them. This fascination led me to explore tech icons like Mark Zuckerberg, Bill Gates, and Jeff Bezos, with Gates's curiosity particularly inspiring me. That's how I began my journey into the tech world and started becoming proficient in it.",
         desc2: "ㅤㅤㅤI started learning about PC components and how they worked through YouTube animations. By the age of 14-15, I could even repair my own computer. I dabbled in manipulating game config files, thinking it was coding, before realizing the difference. As I played games, I began understanding the lines of code behind them. This led me to develop an interest in C++ and graphics designing. I learned that learning should be project-based and practical, which motivated me to delve into frontend programming, starting with making my portfolio website. I eventually transitioned to React and honed my logic-building skills.",
@@ -27,7 +27,7 @@ export const blogdeta = [
         date: "24-09-2023 ",
     },
     {
-        id: 2,
+        id: "Time-Management-and-Efficiency",
         title: "Time Management and Efficiency",
         desc1: "ㅤㅤㅤTime management is all about prioritizing your tasks effectively. When you take the time to identify what needs to be done first and what can wait, you can ensure that your energy and attention are directed towards the most important and impactful activities. This not only helps you accomplish more but also reduces the stress of trying to juggle multiple tasks simultaneously.",
         desc2: "ㅤㅤㅤAnother key aspect of time management is maintaining focus on the task at hand. When you give your full attention to what you're doing, you not only complete it more efficiently but also find greater satisfaction in the process. It's like immersing yourself in the present moment, whether it's work, a hobby, or spending time with loved ones. Building interest and enthusiasm for what you're doing can make even the most mundane tasks feel enjoyable.",
@@ -39,7 +39,7 @@ export const blogdeta = [
         date: "01-10-2023 ",
     },
     {
-        id: 3,
+        id: "Task-execution-and-Confidence",
         title: "Task, execution and Confidence",
         desc1: "ㅤㅤㅤShort tasks are a game-changer when it comes to improving focus and concentration. In our fast-paced world, distractions are abundant, and it's easy to get overwhelmed by lengthy to-do lists. Short tasks, however, allow you to break your work into bite-sized chunks, making it easier to maintain your attention and stay engaged. When you know that a task will only take a short amount of time, you're more likely to dive in with enthusiasm, and this heightened focus can lead to increased productivity.",
         desc2: "ㅤㅤㅤCompleting short tasks can have a profound impact on your confidence. These small victories add up and provide a continuous stream of positive reinforcement. When you consistently achieve short-term goals, it bolsters your belief in your abilities and helps you tackle larger challenges with greater self-assuredness. This boost in confidence can have a ripple effect on various aspects of your life, from your career to your personal goals, as it encourages you to take on more significant tasks and responsibilities.",
@@ -51,7 +51,7 @@ export const blogdeta = [
         date: "03-10-2023 ",
     },
     {
-        id: 4,
+        id:  "Retention-Curve-and-Analysis",
         title: "Retention Curve and Analysis",
         desc1: "ㅤㅤㅤThe retention curve is a vital concept in the realm of learning and memory. It represents how well we remember information over time. As we learn new material, our retention of that knowledge typically follows a curve, starting high and gradually declining. This curve can be influenced by various factors, including the nature of the material, individual differences, and the quality of learning strategies employed.",
         desc2: "ㅤㅤㅤSeveral factors can significantly impact the shape and steepness of the retention curve. The reasons behind this curve include the complexity of the information, the frequency of revision, and the depth of understanding during the initial learning phase. Additionally, motivation, engagement, and the honesty of self-assessment play crucial roles. Consistently revisiting and actively recalling information can help combat the natural decline in retention over time.",

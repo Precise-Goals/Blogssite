@@ -6,7 +6,7 @@ import './blog.css'
 
 export const Bdata = () => {
   const { id } = useParams();
-  const blog = blogdeta.find((blog) => blog.id === Number(id));
+  const blog = blogdeta.find((blog) => blog.id === String(id));
 
   if (!blog) {
     return <div className="error">404 Blog Not Found</div>;
