@@ -2,16 +2,19 @@ import a1 from "../assets/a1.webp";
 import a2 from "../assets/a2.webp";
 import a3 from "../assets/a3.webp";
 import a4 from "../assets/a4.webp"; 
+import a5 from "../assets/a5.webp"; 
 
 import b1 from "../assets/b1.png";
 import b2 from "../assets/b2.webp";
 import b3 from "../assets/b3.webp";
 import b4 from "../assets/b4.webp"; 
+import b5 from "../assets/b5.webp"; 
 
 import c1 from "../assets/c1.webp";
 import c2 from "../assets/c2.webp";
 import c3 from "../assets/c3.webp";
 import c4 from "../assets/c4.webp"; 
+import c5 from "../assets/c5.webp"; 
 
 export const blogdeta = [
     {
@@ -61,5 +64,17 @@ export const blogdeta = [
         image: b4,
         thumb:c4,
         date: "06-10-2023 ",
+    },
+    {
+        id:"Health,-Lifestyle-and-Exercise",
+        title:"Health, Lifestyle and Exercise",
+        desc1:"ㅤㅤㅤMaintaining a healthy lifestyle is the cornerstone of optimal performance and sustained energy levels. Your health forms the foundation upon which you can build a life filled with productivity and vigor. One of the key components of a healthy lifestyle is regular exercise. Exercise not only keeps your body in good shape, but it also has a profound impact on your mental and emotional well-being. When you engage in physical activities, your body releases endorphins, which are natural mood lifters, and your energy levels receive a much-needed boost.",
+        desc2:"ㅤㅤㅤA well-rounded exercise routine can significantly improve your overall health. Regular workouts enhance cardiovascular fitness, build strength, and boost your endurance. As your physical health improves, you'll find that your mental acuity and focus are also sharpened, leading to increased productivity in your daily tasks. Moreover, adopting a healthy lifestyle, which includes a balanced diet and adequate sleep, can further enhance your overall health and energy levels. When you nourish your body with the right nutrients and get sufficient rest, you are better equipped to tackle life's challenges and perform at your best.",
+        desc3:"ㅤㅤㅤInvesting in your health through exercise and a healthy lifestyle is a surefire way to boost your performance and energy levels. Whether it's a brisk morning jog, a session at the gym, or even yoga and meditation, the key is to find an exercise routine that resonates with you and complements your overall well-being. Coupled with nutritious eating habits and quality sleep, this approach will not only keep you healthy but also elevate your productivity, enabling you to lead a more fulfilling and energetic life. So, make your health a priority, and you'll find that everything else in life falls into place with ease.",
+        conc:"Prioritizing a healthy lifestyle and regular exercise is the key to heightened energy levels, improved performance, and increased productivity. By taking care of your body and mind, you set the stage for a more vibrant and successful life. Start today, and you'll see the benefits unfold in every aspect of your daily endeavors.",
+        cover: a5,
+        image: b5,
+        thumb: c5,
+        date:"11-9-2023 ",
     },
 ]
